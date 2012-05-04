@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[800, 600]"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="1"/>
+                  <Component id="jPanel1" min="-2" pref="319" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="356" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="589" max="32767" attributes="1"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="searchView">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="searchView" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new WTextPane()"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignFlowLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="okButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="okButton.text"/>
+            <Property name="name" type="java.lang.String" value="okButton" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="okButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cancleButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="cancleButton.text"/>
+            <Property name="name" type="java.lang.String" value="cancleButton" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancleButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="applyButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="applyButton.text"/>
+            <Property name="name" type="java.lang.String" value="applyButton" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="applyButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="advancedButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="advancedButton.text"/>
+            <Property name="name" type="java.lang.String" value="advancedButton" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="advancedButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="image" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="targetLanguageLabel" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="sourceLanguageLabel" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="fileNameLable" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="formatLable" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="startDateLabel" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="endDateLabel" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="fieldLable" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="fileField" linkSize="6" alignment="0" pref="162" max="32767" attributes="0"/>
+                              <Component id="domainField" linkSize="6" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
+                              <Component id="endDateFeild" linkSize="6" max="32767" attributes="1"/>
+                              <Component id="startdateField" linkSize="6" alignment="0" max="32767" attributes="1"/>
+                              <Component id="sourceLanguageField" linkSize="6" alignment="0" max="32767" attributes="1"/>
+                              <Component id="formatBox" linkSize="6" alignment="0" max="32767" attributes="1"/>
+                              <Component id="targetLanguageField" linkSize="6" alignment="1" min="-2" pref="161" max="-2" attributes="1"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="image" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="fileNameLable" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="fieldLable" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Component id="targetLanguageLabel" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="sourceLanguageLabel" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="formatLable" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="startDateLabel" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="endDateLabel" linkSize="8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="fileField" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Component id="domainField" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Component id="targetLanguageField" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="sourceLanguageField" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="formatBox" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="startdateField" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="endDateFeild" linkSize="8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="sourceLanguageLabel">
+          <Properties>
+            <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="sourceLanguageField"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="sourceLanguageLabel.text"/>
+            <Property name="name" type="java.lang.String" value="sourceLanguageLabel" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourceLanguageLabelMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourceLanguageLabelMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="sourceLanguageLabelMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="startDateLabel">
+          <Properties>
+            <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="startdateField"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="startDateLabel.text"/>
+            <Property name="name" type="java.lang.String" value="startDateLabel" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="startDateLabelMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="startDateLabelMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="startDateLabelMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="startdateField">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="startdateField.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="startdateField.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="startdateField" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="startdateFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="sourceLanguageField">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="sourceLanguageField.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="sourceLanguageField.toolTipText"/>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[2, 3, 3, 2]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="sourceLanguageField" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="image">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="image.icon"/>
+            <Property name="name" type="java.lang.String" value="image" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="formatLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="formatLable.text"/>
+            <Property name="name" type="java.lang.String" value="formatLable" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formatLableMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formatLableMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formatLableMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="targetLanguageLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="targetLanguageLabel.text"/>
+            <Property name="name" type="java.lang.String" value="targetLanguageLabel" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="targetLanguageLabelMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="targetLanguageLabelMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="targetLanguageLabelMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="targetLanguageField">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="targetLanguageField.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="targetLanguageField.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="targetLanguageField" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="targetLanguageFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fileNameLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileNameLable.text"/>
+            <Property name="name" type="java.lang.String" value="fileNameLable" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fileNameLableMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fileNameLableMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fileNameLableMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="formatBox">
+          <Properties>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="52">
+                <StringItem index="0" value="any"/>
+                <StringItem index="1" value="asp"/>
+                <StringItem index="2" value="cdf"/>
+                <StringItem index="3" value="cfm"/>
+                <StringItem index="4" value="cpp"/>
+                <StringItem index="5" value="csharp"/>
+                <StringItem index="6" value="cstring"/>
+                <StringItem index="7" value="csv"/>
+                <StringItem index="8" value="documentfooter"/>
+                <StringItem index="9" value="documentheader"/>
+                <StringItem index="10" value="form"/>
+                <StringItem index="11" value="html"/>
+                <StringItem index="12" value="htmlbody"/>
+                <StringItem index="13" value="ini"/>
+                <StringItem index="14" value="interleaf"/>
+                <StringItem index="15" value="javaclass"/>
+                <StringItem index="16" value="javapropertyresourcebundle"/>
+                <StringItem index="17" value="javalistresourcebundle"/>
+                <StringItem index="18" value="javascript"/>
+                <StringItem index="19" value="jscript"/>
+                <StringItem index="20" value="layout"/>
+                <StringItem index="21" value="lisp"/>
+                <StringItem index="22" value="margin"/>
+                <StringItem index="23" value="menufile"/>
+                <StringItem index="24" value="messagefile"/>
+                <StringItem index="25" value="mif"/>
+                <StringItem index="26" value="mimetype"/>
+                <StringItem index="27" value="mo"/>
+                <StringItem index="28" value="msglib"/>
+                <StringItem index="29" value="pagefooter"/>
+                <StringItem index="30" value="pageheader"/>
+                <StringItem index="31" value="parameters"/>
+                <StringItem index="32" value="pascal"/>
+                <StringItem index="33" value="php"/>
+                <StringItem index="34" value="plaintext"/>
+                <StringItem index="35" value="po"/>
+                <StringItem index="36" value="report"/>
+                <StringItem index="37" value="resources"/>
+                <StringItem index="38" value="resx"/>
+                <StringItem index="39" value="rtf"/>
+                <StringItem index="40" value="sgml"/>
+                <StringItem index="41" value="sgmldtd"/>
+                <StringItem index="42" value="svg"/>
+                <StringItem index="43" value="vbscript"/>
+                <StringItem index="44" value="warning"/>
+                <StringItem index="45" value="winres"/>
+                <StringItem index="46" value="xhtml"/>
+                <StringItem index="47" value="xml"/>
+                <StringItem index="48" value="xmldtd"/>
+                <StringItem index="49" value="xsl"/>
+                <StringItem index="50" value="xul"/>
+                <StringItem index="51" value="x-"/>
+              </StringArray>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="formatBox.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="formatBox" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="formatBoxActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="fieldLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fieldLable.text"/>
+            <Property name="name" type="java.lang.String" value="fieldLable" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fieldLableMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fieldLableMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="fieldLableMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="fileField">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileField.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="fileField.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="fileField" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="endDateLabel">
+          <Properties>
+            <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="startdateField"/>
+            </Property>
+            <Property name="text" type="java.lang.String" resourceKey="endDateLabel.text"/>
+            <Property name="name" type="java.lang.String" value="endDateLabel" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="endDateLabelMouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="endDateLabelMouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="endDateLabelMouseExited"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="endDateFeild">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="endDateFeild.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="endDateFeild.toolTipText"/>
+            <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+              <Insets value="[2, 3, 3, 2]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="endDateFeild" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="domainField">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="domainField.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="domainField.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="domainField" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

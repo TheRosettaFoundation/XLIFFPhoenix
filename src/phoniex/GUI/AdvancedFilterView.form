@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="2"/>
+                  <Component id="jPanel2" alignment="0" max="32767" attributes="2"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" pref="477" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Component id="jPanel2" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="1"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="toolFilterLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="toolFilterPanel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="logoLable" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="transUnitFilterLable" min="-2" max="-2" attributes="0"/>
+                          <Component id="xliffFilterPanel" alignment="0" max="32767" attributes="1"/>
+                          <Component id="phasePanel" alignment="0" max="32767" attributes="1"/>
+                          <Component id="transUnitPanel" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <Component id="phaseLable" min="-2" max="-2" attributes="0"/>
+                      <Component id="xliffFilterLable" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="27" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="phaseLable" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="phasePanel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="xliffFilterLable" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="xliffFilterPanel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="logoLable" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="toolFilterLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="transUnitFilterLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="toolFilterPanel" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="transUnitPanel" min="-2" pref="161" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="logoLable">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="logoLable.icon"/>
+            <Property name="debugGraphicsOptions" type="int" value="-1"/>
+            <Property name="name" type="java.lang.String" value="logoLable" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="phasePanel">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder bevelType="0">
+                  <Property name="highlight" resourceKey="phasePanel.border.highlightColor"/>
+                  <Property name="shadow" resourceKey="phasePanel.border.shadowColor"/>
+                </EtchetBorder>
+              </Border>
+            </Property>
+            <Property name="name" type="java.lang.String" value="phasePanel" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jobIdLabel" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="emailLabel" linkSize="7" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ContactNameLabel" linkSize="7" min="-2" max="-2" attributes="0"/>
+                          <Component id="companyNameLabel" linkSize="7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="emailField" linkSize="6" alignment="0" pref="146" max="32767" attributes="1"/>
+                          <Component id="jobIdFeild" linkSize="6" min="-2" pref="109" max="-2" attributes="1"/>
+                          <Component id="contactNameField" linkSize="6" alignment="0" pref="146" max="32767" attributes="1"/>
+                          <Component id="companyNameFeild" linkSize="6" alignment="0" min="-2" pref="109" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="companyNameLabel" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Component id="contactNameField" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="emailField" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jobIdFeild" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="companyNameFeild" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="ContactNameLabel" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="emailLabel" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jobIdLabel" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="contactNameField">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="contactNameField.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="contactNameField.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="contactNameField" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="companyNameFeild">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="companyNameFeild.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="companyNameFeild.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="companyNameFeild" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jobIdFeild">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jobIdFeild.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="jobIdFeild.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="jobIdFeild" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jobIdLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jobIdLabel.text"/>
+                <Property name="name" type="java.lang.String" value="jobIdLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jobIdLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jobIdLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jobIdLabelMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="emailField">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="emailField.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="emailField.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="emailField" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="companyNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="companyNameLabel.text"/>
+                <Property name="name" type="java.lang.String" value="companyNameLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="companyNameLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="companyNameLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="companyNameLabelMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ContactNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="ContactNameLabel.text"/>
+                <Property name="name" type="java.lang.String" value="ContactNameLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ContactNameLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ContactNameLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ContactNameLabelMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="emailLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="emailLabel.text"/>
+                <Property name="name" type="java.lang.String" value="emailLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="emailLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="emailLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="emailLabelMouseExited"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="phaseLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="phaseLable.text"/>
+            <Property name="name" type="java.lang.String" value="phaseLable" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="toolFilterLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="toolFilterLable.text"/>
+            <Property name="name" type="java.lang.String" value="toolFilterLable" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="transUnitFilterLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="transUnitFilterLable.text"/>
+            <Property name="name" type="java.lang.String" value="transUnitFilterLable" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="transUnitPanel">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection component="phasePanel" name="border" type="property"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="transUnitPanel" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="approvedLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lockedLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="tuStatusLable" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="transUnitStateLable" alignment="0" min="-2" pref="102" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="transUnitStateBox" linkSize="8" alignment="0" pref="146" max="32767" attributes="1"/>
+                          <Component id="transUnitStatusBox" linkSize="8" alignment="0" max="32767" attributes="1"/>
+                          <Component id="approvedBox" linkSize="8" alignment="0" pref="146" max="32767" attributes="1"/>
+                          <Component id="lockedBox" linkSize="8" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="37" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="lockedLable" min="-2" max="-2" attributes="0"/>
+                          <Component id="lockedBox" linkSize="9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="approvedLable" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                      <Component id="tuStatusLable" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="approvedBox" linkSize="9" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="transUnitStatusBox" linkSize="9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="transUnitStateLable" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Component id="transUnitStateBox" linkSize="9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="7" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="transUnitStateBox">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="16">
+                    <StringItem index="0" value="any"/>
+                    <StringItem index="1" value="exact-match"/>
+                    <StringItem index="2" value="fuzzy-match"/>
+                    <StringItem index="3" value="id-match"/>
+                    <StringItem index="4" value="leveraged-glossary"/>
+                    <StringItem index="5" value="leveraged-inherited"/>
+                    <StringItem index="6" value="leveraged-mt"/>
+                    <StringItem index="7" value="leveraged-repository"/>
+                    <StringItem index="8" value="leveraged-tm"/>
+                    <StringItem index="9" value="mt-suggestion"/>
+                    <StringItem index="10" value="rejected-grammar"/>
+                    <StringItem index="11" value="rejected-inaccurate"/>
+                    <StringItem index="12" value="rejected-length"/>
+                    <StringItem index="13" value="rejected-spelling"/>
+                    <StringItem index="14" value="tm-suggestion"/>
+                    <StringItem index="15" value="x-"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="transUnitStateBox.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="transUnitStateBox" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="approvedLable">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="approvedLable.text"/>
+                <Property name="name" type="java.lang.String" value="approvedLable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="approvedLableMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="approvedLableMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="approvedLableMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="approvedBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="any"/>
+                    <StringItem index="1" value="yes"/>
+                    <StringItem index="2" value="no"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="approvedBox.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="approvedBox" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tuStatusLable">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="tuStatusLable.text"/>
+                <Property name="name" type="java.lang.String" value="tuStatusLable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tuStatusLableMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tuStatusLableMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tuStatusLableMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="transUnitStatusBox">
+              <Properties>
+                <Property name="editable" type="boolean" value="true"/>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="12">
+                    <StringItem index="0" value="any"/>
+                    <StringItem index="1" value="final"/>
+                    <StringItem index="2" value="needs-adaptation"/>
+                    <StringItem index="3" value="needs-l10n"/>
+                    <StringItem index="4" value="needs-review-adaptation"/>
+                    <StringItem index="5" value="needs-review-l10n"/>
+                    <StringItem index="6" value="needs-review-translation"/>
+                    <StringItem index="7" value="needs-translation"/>
+                    <StringItem index="8" value="new"/>
+                    <StringItem index="9" value="signed-off"/>
+                    <StringItem index="10" value="translated"/>
+                    <StringItem index="11" value="x-"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="transUnitStatusBox.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="transUnitStatusBox" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="lockedBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="any"/>
+                    <StringItem index="1" value="yes"/>
+                    <StringItem index="2" value="no"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="lockedBox.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="lockedBox" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lockedLable">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="lockedLable.text"/>
+                <Property name="name" type="java.lang.String" value="lockedLable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lockedLableMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lockedLableMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="lockedLableMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="transUnitStateLable">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="transUnitStateLable.text"/>
+                <Property name="name" type="java.lang.String" value="transUnitStateLable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="transUnitStateLableMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="transUnitStateLableMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="transUnitStateLableMouseExited"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="toolFilterPanel">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection component="phasePanel" name="border" type="property"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="toolFilterPanel" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="toolVersionLable" linkSize="12" alignment="0" min="-2" pref="66" max="-2" attributes="0"/>
+                          <Component id="toolCompanyLabel" linkSize="12" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="toolIdLabel" linkSize="12" alignment="0" min="-2" pref="102" max="-2" attributes="0"/>
+                          <Component id="toolNameLable" linkSize="12" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="toolCompanyFeild" linkSize="10" alignment="0" max="32767" attributes="1"/>
+                          <Component id="toolIdFeild" linkSize="10" alignment="0" max="32767" attributes="1"/>
+                          <Component id="toolNameFeild" linkSize="10" alignment="0" pref="146" max="32767" attributes="1"/>
+                          <Component id="toolVersionField" linkSize="10" alignment="0" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="toolCompanyFeild" linkSize="11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="toolNameFeild" linkSize="11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="toolIdFeild" linkSize="11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="toolVersionField" linkSize="11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="toolCompanyLabel" linkSize="11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="toolNameLable" linkSize="11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="toolIdLabel" linkSize="11" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="toolVersionLable" linkSize="11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="toolCompanyLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolCompanyLabel.text"/>
+                <Property name="name" type="java.lang.String" value="toolCompanyLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolCompanyLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolCompanyLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolCompanyLabelMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="toolIdLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolIdLabel.text"/>
+                <Property name="name" type="java.lang.String" value="toolIdLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolIdLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolIdLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolIdLabelMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="toolIdFeild">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolIdFeild.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="toolIdFeild.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="toolIdFeild" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="toolCompanyFeild">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolCompanyFeild.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="toolCompanyFeild.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="toolCompanyFeild" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="toolCompanyFeildActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="toolNameLable">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolNameLable.text"/>
+                <Property name="name" type="java.lang.String" value="toolNameLable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolNameLableMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolNameLableMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolNameLableMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="toolNameFeild">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolNameFeild.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="toolNameFeild.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="toolNameFeild" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="toolNameFeildActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="toolVersionLable">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolVersionLable.text"/>
+                <Property name="name" type="java.lang.String" value="toolVersionLable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolVersionLableMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolVersionLableMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="toolVersionLableMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="toolVersionField">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="toolVersionField.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="toolVersionField.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="toolVersionField" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="toolVersionFieldActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="xliffFilterPanel">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection component="phasePanel" name="border" type="property"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="xliffFilterPanel" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="versionLabel" min="-2" pref="83" max="-2" attributes="1"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="versionBox" min="-2" pref="144" max="-2" attributes="1"/>
+                      <EmptySpace pref="37" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="versionLabel" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="versionBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="versionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="versionLabel.text"/>
+                <Property name="name" type="java.lang.String" value="versionLabel" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="versionLabelMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="versionLabelMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="versionLabelMouseExited"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="versionBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="any"/>
+                    <StringItem index="1" value="1.0"/>
+                    <StringItem index="2" value="1.1"/>
+                    <StringItem index="3" value="1.2"/>
+                  </StringArray>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="versionBox.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="versionBox" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="xliffFilterLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="xliffFilterLable.text"/>
+            <Property name="name" type="java.lang.String" value="xliffFilterLable" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="303" max="-2" attributes="0"/>
+                  <Component id="basicButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="341" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="basicButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="basicButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="basicButton.text"/>
+            <Property name="name" type="java.lang.String" value="basicButton" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="basicButtonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
