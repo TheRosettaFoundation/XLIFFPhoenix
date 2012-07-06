@@ -45,7 +45,7 @@ public class Core {
     static Image logo = Toolkit.getDefaultToolkit().getImage(PhoenixApp.class.getResource("resources/Xliff_Phoenix_Logo.png"));
     JFrame joblist = null;
     String jobid="";
-    String server="http://10.100.13.155/locConnect2.0/";
+    String server="http://193.1.97.50/locConnect/";
 
     public Document getStats() {
         return stats;

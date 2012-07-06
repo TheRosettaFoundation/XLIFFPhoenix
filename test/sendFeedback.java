@@ -18,7 +18,7 @@ public class sendFeedback {
     public static void main(String[] args) {
         String s= "Loading Resources";
         String id = "2dcc8a6495";
-        String server = "http://10.100.13.155/locConnect/";
+        String server = "http://193.1.97.50/locConnect/";
         Output.setFeedback(server, id, s);
     }
 

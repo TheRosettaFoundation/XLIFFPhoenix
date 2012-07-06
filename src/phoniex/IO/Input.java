@@ -60,7 +60,7 @@ public class Input {
     public static Document getJobs(String Server){
        Document doc=null;
        try{
-           URL server = new URL(Server+"fetch_job_id.php?com=LMC");
+           URL server = new URL(Server+"fetch_job.php?com=LMC");
            URLConnection in = server.openConnection();
            doc = new SAXBuilder("org.apache.xerces.parsers.SAXParser").build(in.getInputStream());
            in.getInputStream().close();

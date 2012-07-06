@@ -19,7 +19,7 @@ public class webDownloadTest {
     public static void main(String[] args){
         try{
             args = new String[]{//for testing in netbeans
-                "http://10.100.13.155/locConnect/",//hostName
+                "http://193.1.97.50/locConnect/",//hostName
                 "2dcc8a6495"};//jobID
             Document doc = Input.docLoad("C:/Documents%20and%20Settings/Admin/Desktop/xliff/testData/Symposium6.xlf");
             Output.sendOutput(args[0], args[1], doc);
