@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: PACKAGE VERSION\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2010-07-05 15:04+0100\n"
+        "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+        "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+# Resources for the ReusageView class
+# top-level menus
+msgid   "fileMenu.text"
+msgstr  "File"
+
+msgid   "helpMenu.text"
+msgstr  "Help"
+
+# @Action resources
+msgid   "showAboutBox.Action.text"
+msgstr  "&About..."
+
+msgid   "showAboutBox.Action.shortDescription"
+msgstr  "Show the application's information dialog"
+
+# status bar resources
+msgid   "jScrollPane1.TabConstraints.tabTitle"
+msgstr  "Repository"
+
+msgid   "jScrollPane3.TabConstraints.tabTitle"
+msgstr  "target"
+
+msgid   "searchButton.text"
+msgstr  "Filter"
+
+msgid   "exitButton.text"
+msgstr  "Exit"
+
+msgid   "saveButton.text"
+msgstr  "Save"
+
+msgid   "loadButton.text"
+msgstr  "Load"
+
+msgid   "fuzzyCheck.text"
+msgstr  "fuzzy Matching"
+
+msgid   "processButton.text"
+msgstr  "Process"
+
+msgid   "fuzzyCheck.toolTipText"
+msgstr  "Tick to enable fuzzy matching"
+
+msgid   "fuzzPercent.toolTipText"
+msgstr  "select a percentage match or enter your own"
+
+msgid   "jButton1.text"
+msgstr  "Wizard"
+
+# NOI18N
+msgid   "fileview.font"
+msgstr  "Times New Roman-Plain-12"
+
+msgid   "jScrollPane2.TabConstraints.tabTitle"
+msgstr  "source"
+
+msgid   "jScrollPane4.TabConstraints.tabTitle"
+msgstr  "Filtered Repository"
+
+# NOI18N
+msgid   "repositoryTab.font"
+msgstr  "Times New Roman-Plain-11"
+
+msgid   "wizardButton"
+msgstr  "Wizard"
