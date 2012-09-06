@@ -47,7 +47,7 @@ public class Core {
     JFrame joblist = null;
     String jobid="";
     //String server="http://10.100.13.155/locConnect2.0/";
-    String server="http://locconnect:81/";
+    String server="http://193.1.97.50/locconnect/";
 
     public Document getStats() {
         return stats;
@@ -233,7 +233,7 @@ public class Core {
     public Document removeContentTag(Document doc){
         Element newRoot= doc.getRootElement().getChild("xliff",XliffElement.xliff);
         if (newRoot==null) newRoot =doc.getRootElement().getChild("lmc",Lmc.lmc);
-
+        if (newRoot==null) newRoot =doc.getRootElement();
         return new Document((Element)newRoot.detach());
     }
 
